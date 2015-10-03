@@ -35,12 +35,7 @@
       <p>"I'm a freshman at Akron High. I love soccer and hope to play in college one day! The Cleveland Cavaliers are my favorite basketball team and I hope to live my dream just like LeBron James!"</p>
         <div class="row">
           <div class="col-lg-10">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Enter personal info here" id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button" id="sendinfo" onClick="send()">Send Info</button>
-              </span>
-            </div>
+           
           </div>
         </div>
         
@@ -50,7 +45,7 @@
     </div>
 
   </div>
-  <h3 id="centered" style="text-align:center">Academic Progress</h3>
+  
   <!--</div>-->
 
     <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
