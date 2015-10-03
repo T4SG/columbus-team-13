@@ -49,7 +49,7 @@
         
     </div>
     <div class="col-lg-4>" id="prof">
-      <img src="johndoe.jpg" id="profilepic" style="height:280px; width:280px;">
+      <img src="images/create-cartoon-caricatures_ws_1355965104.png" id="profilepic" style="height:280px; width:280px;">
     </div>
 
   </div>
