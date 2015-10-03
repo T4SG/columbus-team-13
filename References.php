@@ -30,7 +30,8 @@
         <li><a href="http://lebronjamesfamilyfoundation.org/">LeBron James Family Foundation</a></li>
         <li><a href="http://www.suicidepreventionlifeline.org/">National Suicide Prevention Hotline: 1 (800) 273-8255</a></li>
         <li><a href="http://www.teenhealthandwellness.com/static/hotlines">Other Hotlines</a></li>
-
+        <br><br><br>
+        <img src="images/ipromise.jpg"/ id="promise">
     </div>
   <div class="col-xs-2"></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
