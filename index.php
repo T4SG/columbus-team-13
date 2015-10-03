@@ -27,6 +27,7 @@
     <span class="italics-header masthead-header">Hometown</span>
     <span class="italics-header masthead-header">Hero</span>
     <hr /><br />
+
     <div class="login-form-container">
     <form action="POST" class="login-form">
     <label for="password">Username: </label>
@@ -36,9 +37,12 @@
     </form>
 
     </div>
+
     <div class="span7 text-center" id="space"><a class="btn btn-success" id="login" href="#profile.php">Log in</a></div>
   </div>
   <div class="col-xs-2">
+    <img  id="hth" src="images/homeslider3-kids-green.png"> <br><br>
+    <img  id="hth" src="images/homeslider3-cropped-green.png">
   </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
