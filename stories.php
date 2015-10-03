@@ -38,7 +38,8 @@
     </div>
     <div class="your-story col-xs-6">
       <h2 class="sample-user-name">Reachback</h2>
-      <blockquote>Hey <a href="#">@James</a>, I saw that you're keeping up the good work. Great job.</blockquote>
+      <blockquote>Hi <a href="#">John D!</a>, I saw that got an A on your English essay and I just wanted to personally congratulate you! I'm so proud of you, keep studying hard!</blockquote>
+            <blockquote>Hey <a href="#">Jane D!</a>, This one's for you, check out the video below!</blockquote>
       <blockquote><iframe width="auto" height="315px" src="https://www.youtube.com/embed/q8Gb8eaMXVc" frameborder="0" allowfullscreen></iframe></blockquote>
     </div>
   </div>
