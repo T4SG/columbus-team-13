@@ -10,6 +10,7 @@
         <li role="presentation"><a href="stories.php">My Story</a></li>
         <li role="presentation"><a href="personal_page.php">My Progress</a></li>
         <li role="presentation"><a href="References.php">Resources</a></li>
+        <li role="presentation"><a href="teacher.php">Teacher Page</a></li>
       </ul>
     </div>
 
