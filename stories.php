@@ -28,11 +28,12 @@
     <div class="your-story col-xs-6">
       <h2 class="sample-user-name">I am LeBron James</h2>
        <iframe width="100%" height="315px" src="https://www.youtube.com/embed/_mgBStqp06c" frameborder="0" allowfullscreen></iframe>
-      <h3 class="italics-header">My Goals</h3>
+      <h3 class="italics-header">You shared your goals with me, now let me share mine with you!</h3>
+      <h3 class="sample-user-name">My Current Goals:</h3>
       <ul class="goals">
-	<li>Score 20 points in one game</li>
-	<li>Five reachback videos in one week</li>
-	<li>Spending four nights a week with family</li>
+	<li>Set a new PR for points scored in a game within the next month.</li>
+	<li>Record and post a minimum of 5 reachback videos every week!</li>
+	<li>Spend at least four nights a week with my family.</li>
       </ul>
     </div>
     <div class="your-story col-xs-6">
