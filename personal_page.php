@@ -37,10 +37,10 @@
           <div class="col-lg-8">
      <h3 class="sample-user-name">My Current Goals:</h3>
       <ul class="goals">
-  <li>Make the Varsity soccer team.</li>
-  <li>Attend all classes this week.</li>
-  <li>Study at least one hour every night.</li>
-  <li>Earn 10 hours of community service this month.</li>
+  <li>Make the Varsity soccer team.</li><button type="button">Completed?</button>
+  <li>Attend all classes this week.</li><button type="button">Completed?</button>
+  <li>Study at least one hour every night.</li><button type="button">Completed?</button>
+  <li>Earn 10 hours of community service this month.</li><button type="button">Completed?</button>
       </ul>
     </div>
           </div>
