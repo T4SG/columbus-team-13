@@ -54,10 +54,14 @@
 
   </div>
   <h3 id="centered" style="text-align:center">Academic Progress</h3>
-
- 
+  <h5>GPA Goal Progress</h5> 
   
-  
+<br />
+<div class="progress">
+  <div class="active progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <span class="sr-only">60% Complete (warning)</span>
+  </div>
+</div>
   <div>
     <script type="text/javascript"
           src="https://www.google.com/jsapi?autoload={
