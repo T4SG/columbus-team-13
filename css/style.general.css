@@ -1,6 +1,17 @@
 .italics-header {
   font-family: 'Pacifico', cursive;
-  left: 50%;
   position: relative;
-  transform: translateX(0%);
+  display: table;
+  margin: 0 auto;
+}
+body {
+  background: #fcf1d4;
+}
+.logo-img {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.main-header {
+  height: 50px;
 }
