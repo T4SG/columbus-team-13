@@ -34,7 +34,9 @@
     <label for="password">Password: </label>
       <input type="password" name="password" />
     </form>
+
     </div>
+    <div class="span7 text-center" id="space"><a class="btn btn-success" id="login" href="#profile.php">Log in</a></div>
   </div>
   <div class="col-xs-2">
   </div>
