@@ -35,7 +35,7 @@
       <p><b>Address: </b>123 Road St., Akron, OH 44322 <p>
       <p><b>School: </b>Akron High School</p>
       <h4>Additional Personal Information</h4>
-      <p>Feel free to provide us with any additional personal information that you want to tell us. Example: your family situation, if you aren't feeling mentally well, anything you'd like. </p>
+      <p>Tell us about your week! High points, low points and everything in between. Anything we can help you with? </p>
         <div class="row">
           <div class="col-lg-10">
             <div class="input-group">
