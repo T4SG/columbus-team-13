@@ -31,13 +31,13 @@
       <div class="col-lg-6 col-lg-offset-1">
       <h1 class="no-top-margin">John Doe</h1>
       
-      <p><br><b>Birth Date (Age): </b>April 11, 2001 (14 years old)</p>
-      <p><b>Address: </b>123 Road St., City, State ZIP<p>
+      <p><b>Birth Date (Age): </b>April 11, 2001 (14 years old)</p>
+      <p><b>Address: </b>123 Road St., Akron, OH 44322 <p>
       <p><b>School: </b>Akron High School</p>
       <h4>Additional Personal Information</h4>
-      <p>Feel free to provide us with any additional personal information that you want to tell us. Example: your family situation, if you aren't feeling mentally well, anything you'd like. </p>
+      <p>Tell us about your week! High points, low points and everything in between. Anything we can help you with? </p>
         <div class="row">
-          <div class="col-lg-9">
+          <div class="col-lg-10">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Enter personal info here" id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
               <span class="input-group-btn">
@@ -58,7 +58,9 @@
 
     <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
   </div>
-  <div class="col-xs-2"></div>
+  <div class="col-xs-2">
+
+  </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
