@@ -6,11 +6,10 @@
     <div class="col-xs-8">
       <ul class="nav nav-tabs">
         <li role="presentation"><a href="index.php">Home</a></li>
-        <li role="presentation" class="active"><a href="profile.php">Profile</a></li>
+        <li role="presentation" class="active"><a href="#">Profile</a></li>
         <li role="presentation"><a href="stories.php">My Story</a></li>
         <li role="presentation"><a href="personal_page.php">My Progress</a></li>
         <li role="presentation"><a href="References.php">Resources</a></li>
-        <li role="presentation"><a href="teacher.php">Teacher Page</a></li>
       </ul>
     </div>
 
