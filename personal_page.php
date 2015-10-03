@@ -35,7 +35,13 @@
       <p>"I'm a freshman at Akron High. I love soccer and hope to play in college one day! The Cleveland Cavaliers are my favorite basketball team and I hope to live my dream just like LeBron James!"</p>
         <div class="row">
           <div class="col-lg-10">
-           
+     <h3 class="sample-user-name">My Current Goals:</h3>
+      <ul class="goals">
+  <li>Set a new PR for points scored in a game within the next month.</li>
+  <li>Record and post a minimum of 5 reachback videos every week!</li>
+  <li>Spend at least four nights a week with my family.</li>
+      </ul>
+    </div>
           </div>
         </div>
         
