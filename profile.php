@@ -18,6 +18,31 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php include_once('include-header.php'); ?>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+<script>function dump(arr,level) {
+  var dumped_text = "";
+  if(!level) level = 0;
+  
+  //The padding given at the beginning of the line.
+  var level_padding = "";
+  for(var j=0;j<level+1;j++) level_padding += "    ";
+			     
+			     if(typeof(arr) == 'object') { //Array/Hashes/Objects 
+			     for(var item in arr) {
+			     var value = arr[item];
+			     
+			     if(typeof(value) == 'object') { //If it is an array,
+			     dumped_text += level_padding + "'" + item + "' ...\n";
+			     dumped_text += dump(value,level+1);
+			     } else {
+			     dumped_text += level_padding + "'" + item + "' => \"" + value + "\"\n";
+			     }
+			     }
+			     } else { //Stings/Chars/Numbers etc.
+			     dumped_text = "===>"+arr+"<===("+typeof(arr)+")";
+			     }
+			     return dumped_text;
+}</script>
   </head>
   <body>
   <?php include_once('header.php'); ?>
@@ -73,7 +98,47 @@
           }"></script>
 
     <script type="text/javascript">
-      google.setOnLoadCallback(drawChart);
+      Parse.initialize("ApZz4ErAWw72CAVJU1V5Lcb252hkiwCkLGi1POPs", "OdGERrqoi0tg2wxpaGhao0Xs0JocwUeX0ZU4Ugcp");
+      var data = Parse.Object.extend("Student");
+      var query = new Parse.Query(data);
+      var jsonData = {
+  "cols": [
+        {"id":"","label":"Time","pattern":"","type":"string"},
+        {"id":"","label":"Grade","pattern":"","type":"number"}
+      ],
+  "rows": new Array()
+}
+
+      query.find({
+        success: function(results) {
+          for ( var i=0; i<results.length;i++ ) {
+            var object = results[i];
+            var test = jsonData.rows;
+            test.push({"c":[{"v":"Week "+object.get('WeekNum'),"f":null},{"v":object.get('Grade'),"f":null}]});
+            jsonData.rows = test;
+
+          }
+
+          google.setOnLoadCallback(drawChart);
+var data = new google.visualization.DataTable(jsonData);
+
+        var options = {
+          title: 'Student Performance',
+          curveType: 'function',
+                  pointSize: 20,
+          legend: { position: 'bottom' }
+
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+        }
+        
+      }
+      
+      );
+      
 
       function drawChart() {
 		  var jsonData = $.ajax({
@@ -81,22 +146,6 @@
           dataType: "json",
           async: false
           }).responseText;
-		  
-		  
-		  
-       var data = new google.visualization.DataTable(jsonData);
-
-        var options = {
-          title: 'Student Performance',
-          curveType: 'function',
-		  pointSize: 20,
-          legend: { position: 'bottom' }
-			
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(data, options);
       }
     </script>
   </div>
