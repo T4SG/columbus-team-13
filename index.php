@@ -54,6 +54,32 @@
 
   </div>
   <h3 id="centered" style="text-align:center">Academic Progress</h3>
+   <script>
+var text = {
+    "StudentGrades": [
+        {
+            "Exam": 67
+        },
+        {
+            "Exam": 53
+        },
+        {
+            "Exam": 42
+        },
+        {
+            "Exam": 78
+        },
+        {
+            "Exam": 85
+        },
+        {
+            "Exam": 98
+        }
+    ]
+	
+	var obj = JSON.parse(text);
+}
+ </script >
   <!--</div>-->
 
     <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
