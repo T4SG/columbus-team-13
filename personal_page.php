@@ -43,8 +43,13 @@
   <li>Earn 10 hours of community service this month.</li>
       </ul>
     </div>
+    <h4>Have advice for me?</h4>
           </div>
-        
+         <input type="text" class="form-control" placeholder="Send me a message!" id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button" id="sendmessage" onClick="send()">Send</button>
+              </span>
+            </div>
     </div>
     <div class="col-lg-4>" id="prof">
       <img src="images/create-cartoon-caricatures_ws_1355965104.png" id="profilepic" style="height:280px; width:280px;">
