@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="morecss.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +29,7 @@
     <!--<div class="container" id="profile">-->
     <div class="row">
       <div class="col-lg-6 col-lg-offset-1">
-      <h1 id="centered">John Doe</h1>
+      <h1 class="no-top-margin">John Doe</h1>
       
       <p><br><b>Birth Date (Age): </b>June 14, 1996 (19 years old)</p>
       <p><b>Address: </b>123 Road St., City, State ZIP<p>
