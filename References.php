@@ -24,6 +24,13 @@
   <div class="col-xs-8">
     <h2 class="italics-header">Resources</h2>
     <h2 class="sample-user-name">because even Heroes can ask for help...</h2>
+    <h4>Here are some important resources that you can use at anytime:</h4>
+    <ul>
+        <li><a href="http://lebronjamesfamilyfoundation.org/"><h4>Lebron James Foundation <h4></a></li>
+        <li><a href="#news"><h4>Success stories <h4></a></li>
+        <li><a href="#guide"><h4>College application guide<h4></a></li>
+        <li><a href="#inbox"><h4>Contact us<h4> </a></li>
+      </ul>
 
   </div>
   <div class="col-xs-2"></div>
