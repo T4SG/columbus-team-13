@@ -63,9 +63,9 @@
           <th>Timestamp</th>
         </tr>
         <tr id="unread">
-          <td>John Doe</td>
-          <td>I've been feeling really stressed out lately due to school and family life.</td>
-          <td>2015.10.03</td>
+          <td><b>John Doe</b></td>
+          <td><b>I've been feeling really stressed out lately due to school and family life.</b></td>
+          <td><b>2015.10.03</b></td>
         </tr>
         <tr id="tdata">
           <td>Jane Doe</td>
