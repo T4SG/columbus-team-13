@@ -102,7 +102,15 @@
  
  
  
- 
+ <form>
+<input type="text" id="formValueId" name="valueId"/>
+<input type="button" id="theButton"/>
+</form>
+
+<script>
+	var button = document.getElementById("theButton"),
+	value =  button.form.valueId.value;
+</script
  
  
  
