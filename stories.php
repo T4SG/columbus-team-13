@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>MyStory - YourStory</title>
-     <h2 class="italics-header">because our stories matter...</h2>
-
+     
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,6 +23,8 @@
   <div class="col-xs-2"> </div>
   <div class="col-xs-8">
     <h2 class="italics-header">MyStory - YourStory</h2>
+    <h2 class="sample-user-name">because our stories matter...</h2>
+
     <hr />
     <div class="my-story col-xs-6">
       <img class="sample-user" src="images/mystory.png" alt= "" /> 
