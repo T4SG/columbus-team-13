@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<<<<<<< HEAD
     <title>Resources</title>
-=======
     <title>MyStory - YourStory</title>
      
 
@@ -28,10 +26,10 @@
   <div class="col-xs-2"> </div>
   <div class="col-xs-8">
     <h2 class="italics-header">Resources</h2>
-    <ul>
-        <li><a href="http://lebronjamesfamilyfoundation.org/"><h4>Lebron James Foundation <h4></a></li>
-        <li><a href="http://www.suicidepreventionlifeline.org/"><h4>National Suicide Prevention Hotline: 1 (800) 273-8255<h4></a></li>
-        <li><a href="http://www.teenhealthandwellness.com/static/hotlines"><h4>Other Hotlines<h4></a></li>
+    <ul class="bold-links">
+        <li><a href="http://lebronjamesfamilyfoundation.org/">LeBron James Family Foundation</a></li>
+        <li><a href="http://www.suicidepreventionlifeline.org/">National Suicide Prevention Hotline: 1 (800) 273-8255</a></li>
+        <li><a href="http://www.teenhealthandwellness.com/static/hotlines">Other Hotlines</a></li>
       </ul>
     <hr />
     </div>
