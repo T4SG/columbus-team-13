@@ -18,21 +18,24 @@
     <![endif]-->
     <?php include_once('include-header.php'); ?>
   </head>
-  <body>
+  <body><div class="col-xs-12">
     <div class="col-xs-2"> </div>
-    <div class="col-xs-8"><ul class="nav nav-tabs">
+    <div class="col-xs-8">
+    <ul class="nav nav-tabs">
       <li role="presentation"><a href="#">Home</a></li>
       <li role="presentation" class="active"><a href="#">Profile</a></li>
       <li role="presentation"><a href="#">My Story</a></li>
-    </ul></div>
+    </ul>
+    </div>
     <div class="col-xs-2"> </div>
-  <div class="col-xs-2"> </div>
+    </div>
+    <div class="col-xs-2"></div>
   <div class="col-xs-8">
-    <h2 class="italics-header">Profile</h3>
+    <h2 class="italics-header">Profile</h2>
     <hr />
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  <div class="col-xs-2"> <div>
+  <div class="col-xs-2"><div></div> </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
