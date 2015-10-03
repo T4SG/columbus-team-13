@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>MyStory / YourStory</title>
-
+    <title>MyStory - YourStory</title>
+     
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,13 +22,15 @@
   <?php include_once('header.php'); ?>
   <div class="col-xs-2"> </div>
   <div class="col-xs-8">
-    <h2 class="italics-header">MyStory / YourStory</h2>
+    <h2 class="italics-header">MyStory - YourStory</h2>
+    <h2 class="sample-user-name">because our stories matter...</h2>
+
     <hr />
     <div class="my-story col-xs-6">
       <img class="sample-user" src="images/mystory.png" alt= "" /> 
     </div>
     <div class="your-story col-xs-6">
-      <h2 class="sample-user-name">LeBron James</h2>
+      <h2 class="sample-user-name">I am LeBron James</h2>
       <img class="sample-user" src="images/lebron-james.jpg" />
       <iframe width="100%" height="315px" src="https://www.youtube.com/embed/_mgBStqp06c" frameborder="0" allowfullscreen></iframe>
       <h3 class="italics-header">My Goals</h3>

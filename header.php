@@ -8,6 +8,7 @@
         <li role="presentation"><a href="index.php">Home</a></li>
         <li role="presentation" class="active"><a href="#">Profile</a></li>
         <li role="presentation"><a href="stories.php">My Story</a></li>
+        <li role="presentation"><a href="personal_page.php">My Progress</a></li>
       </ul>
     </div>
 
