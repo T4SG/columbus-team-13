@@ -37,9 +37,10 @@
           <div class="col-lg-8">
      <h3 class="sample-user-name">My Current Goals:</h3>
       <ul class="goals">
-  <li>Set a new PR for points scored in a game within the next month.</li>
-  <li>Record and post a minimum of 5 reachback videos every week!</li>
-  <li>Spend at least four nights a week with my family.</li>
+  <li>Make the Varsity soccer team.</li>
+  <li>Attend all classes this week.</li>
+  <li>Study at least one hour every night.</li>
+  <li>Earn 10 hours of community service this month.</li>
       </ul>
     </div>
           </div>
