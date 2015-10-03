@@ -32,8 +32,11 @@
       <h3 class="sample-user-name">My Current Goals:</h3>
       <ul class="goals">
 	<li>Set a new PR for points scored in a game within the next month.</li>
+	<button type="button">Completed?</button>
 	<li>Record and post a minimum of 5 reachback videos every week!</li>
+	<button type="button">Completed?</button>
 	<li>Spend at least four nights a week with my family.</li>
+	<button type="button">Completed?</button>
       </ul>
     </div>
     <div class="your-story col-xs-6">
