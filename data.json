@@ -1,0 +1,15 @@
+
+	
+	{
+  "cols": [
+        {"id":"","label":"Grade","pattern":"","type":"string"},
+        {"id":"","label":"Time","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Week One","f":null},{"v":67,"f":null}]},
+        {"c":[{"v":"Week Two","f":null},{"v":53,"f":null}]},
+        {"c":[{"v":"Week Three","f":null},{"v":42,"f":null}]},
+        {"c":[{"v":"Week Four","f":null},{"v":78,"f":null}]},
+        {"c":[{"v":"Week FIve","f":null},{"v":98,"f":null}]}
+      ]
+}
