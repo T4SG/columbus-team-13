@@ -31,7 +31,7 @@
       <div class="col-lg-6 col-lg-offset-1">
       <h1 class="no-top-margin">John</h1>
       
-      <h4>My Bio...</h4>
+      <h4>About Me...</h4>
       <p>"I'm a freshman at Akron High. I love soccer and hope to play in college one day! The Cleveland Cavaliers are my favorite basketball team and I hope to live my dream just like LeBron James!"</p>
         <div class="row">
           <div class="col-lg-10">
