@@ -40,7 +40,7 @@
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li><a href="#">John Doe</a></li>
+          <li><a href="profile.php">John Doe</a></li>
           <li><a href="#">Jane Doe</a></li>
           <li><a href="#">Joe Doe</a></li>
           <li><a href="#">Jill Doe</a></li>
@@ -62,7 +62,7 @@
           <th>Message</th>
           <th>Timestamp</th>
         </tr>
-        <tr id="tdata">
+        <tr id="unread">
           <td>John Doe</td>
           <td>I've been feeling really stressed out lately due to school and family life.</td>
           <td>2015.10.03</td>
