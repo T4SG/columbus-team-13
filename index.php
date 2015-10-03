@@ -24,7 +24,38 @@
   <div class="col-xs-8">
     <h2 class="italics-header">Profile</h2>
     <hr />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <!--<div class="container" id="profile">-->
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-1">
+      <h1 id="centered">John Doe</h1>
+      
+      <p><br><b>Birth Date (Age): </b>June 14, 1996 (19 years old)</p>
+      <p><b>Address: </b>123 Road St., City, State ZIP<p>
+      <p><b>School: </b>Akron High School</p>
+      <h4>Additional Personal Information</h4>
+      <p>Feel free to provide us with any additional personal information that you want to tell us. Example: your family situation, if you aren't feeling mentally well, anything you'd like. </p>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter any personal information here." id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button" id="sendinfo" onClick="send()">Send Info</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <div class="col-lg-4>" id="prof">
+      <img src="johndoe.jpg" id="profilepic" style="height:280px; width:280px;">
+    </div>
+
+  </div>
+  <h3 id="centered" style="text-align:center">Academic Progress</h3>
+  <!--</div>-->
+
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
   </div>
   <div class="col-xs-2"></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
