@@ -31,15 +31,15 @@
       <div class="col-lg-6 col-lg-offset-1">
       <h1 class="no-top-margin">John Doe</h1>
       
-      <p><br><b>Birth Date (Age): </b>June 14, 1996 (19 years old)</p>
+      <p><br><b>Birth Date (Age): </b>April 11, 2001 (14 years old)</p>
       <p><b>Address: </b>123 Road St., City, State ZIP<p>
       <p><b>School: </b>Akron High School</p>
       <h4>Additional Personal Information</h4>
       <p>Feel free to provide us with any additional personal information that you want to tell us. Example: your family situation, if you aren't feeling mentally well, anything you'd like. </p>
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-9">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Enter any personal information here." id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
+              <input type="text" class="form-control" placeholder="Enter personal info here" id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
               <span class="input-group-btn">
                 <button class="btn btn-default" type="button" id="sendinfo" onClick="send()">Send Info</button>
               </span>
