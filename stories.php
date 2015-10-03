@@ -26,19 +26,18 @@
     <h2 class="sample-user-name">because our stories matter...</h2>
 
     <hr />
-    <div class="my-story col-xs-6">
-      <img class="sample-user" src="images/mystory.png" alt= "" /> 
-    </div>
     <div class="your-story col-xs-6">
       <h2 class="sample-user-name">I am LeBron James</h2>
-      <img class="sample-user" src="images/lebron-james.jpg" />
-      <iframe width="100%" height="315px" src="https://www.youtube.com/embed/_mgBStqp06c" frameborder="0" allowfullscreen></iframe>
+       <iframe width="100%" height="315px" src="https://www.youtube.com/embed/_mgBStqp06c" frameborder="0" allowfullscreen></iframe>
       <h3 class="italics-header">My Goals</h3>
       <ul class="goals">
 	<li>Score 20 points in one game</li>
 	<li>Five reachback videos in one week</li>
 	<li>Spending four nights a week with family</li>
       </ul>
+    </div>
+    <div>
+      
     </div>
   </div>
   <div class="col-xs-2"></div>
