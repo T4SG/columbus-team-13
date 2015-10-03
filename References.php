@@ -26,6 +26,7 @@
   <div class="col-xs-2"> </div>
   <div class="col-xs-8">
     <h2 class="italics-header">Resources</h2>
+    <h2 class="sample-user-name">because even Heroes can ask for help...</h2>
     <ul class="bold-links">
         <li><a href="http://lebronjamesfamilyfoundation.org/">LeBron James Family Foundation</a></li>
         <li><a href="http://www.suicidepreventionlifeline.org/">National Suicide Prevention Hotline: 1 (800) 273-8255</a></li>
