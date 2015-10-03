@@ -1,3 +1,4 @@
+<?php $_GLOBALS['do_not_render_name'] = true; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>MyStory - YourStory</title>
-     
+    <title>Profile Page</title>
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="morecss.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,26 +24,20 @@
   <?php include_once('header.php'); ?>
   <div class="col-xs-2"> </div>
   <div class="col-xs-8">
-    <h2 class="italics-header">MyStory &#8212; YourStory</h2>
-    <h2 class="sample-user-name">because our stories matter...</h2>
-    <hr />
-    <div class="your-story col-xs-6">
-      <h2 class="sample-user-name">I am LeBron James</h2>
-       <iframe width="100%" height="315px" src="https://www.youtube.com/embed/_mgBStqp06c" frameborder="0" allowfullscreen></iframe>
-      <h3 class="italics-header">My Goals</h3>
-      <ul class="goals">
-	<li>Score 20 points in one game</li>
-	<li>Five reachback videos in one week</li>
-	<li>Spending four nights a week with family</li>
-      </ul>
-    </div>
-    <div class="your-story col-xs-6">
-      <h2 class="sample-user-name">Reachback</h2>
-      <blockquote>Hey <a href="#">@James</a>, I saw that you're keeping up the good work. Great job.</blockquote>
-      <blockquote><iframe width="auto" height="315px" src="https://www.youtube.com/embed/q8Gb8eaMXVc" frameborder="0" allowfullscreen></iframe></blockquote>
+    <span class="italics-header masthead-header">Hometown</span>
+    <span class="italics-header masthead-header">Hero</span>
+    <hr /><br />
+    <div class="login-form-container">
+    <form action="POST" class="login-form">
+    <label for="password">Username: </label>
+      <input name="username" /><br/>
+    <label for="password">Password: </label>
+      <input type="password" name="password" />
+    </form>
     </div>
   </div>
-  <div class="col-xs-2"></div>
+  <div class="col-xs-2">
+  </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
