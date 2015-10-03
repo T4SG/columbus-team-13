@@ -1,3 +1,20 @@
 .no-top-margin {
 	margin-top: 0px;
 }
+
+#logo {
+	padding-top: 15px;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#green {
+	background-color: #007300;
+}
