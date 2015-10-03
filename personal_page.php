@@ -41,8 +41,9 @@
   <li>Study at least one hour every night.</li>
   <li>Earn 10 hours of community service this month.</li>
       </ul>
-    </div>
     <h4>Have advice for me?</h4>
+    </div>
+
 
          <input type="text" class="form-control" placeholder="Send me a message!" id="info" onkeydown="if (event.keyCode == 13) document.getElementById('sendinfo').click()">
               <span class="input-group-btn">
