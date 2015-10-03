@@ -38,6 +38,9 @@
 	<button type="button">Completed?</button>
 	<li>Spend at least four nights a week with my family.</li>
 	<button type="button">Completed?</button>
+    <div class="col-lg-4>" id="prof">
+      <img src="images/activity_trend.png" id="activity_trend" style="height:280px; width:280px;">
+    </div>
       </ul>
     </div>
     <div class="your-story col-xs-6">
