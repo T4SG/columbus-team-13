@@ -28,9 +28,8 @@
     <h4>Here are some important resources that you can use at anytime:</h4>
     <ul>
         <li><a href="http://lebronjamesfamilyfoundation.org/"><h4>Lebron James Foundation <h4></a></li>
-        <li><a href="#news"><h4>Success stories <h4></a></li>
-        <li><a href="#guide"><h4>College application guide<h4></a></li>
-        <li><a href="#inbox"><h4>Contact us<h4> </a></li>
+        <li><a href="http://www.suicidepreventionlifeline.org/"><h4>National Suicide Prevention Hotline: 1 (800) 273-8255<h4></a></li>
+        <li><a href="http://www.teenhealthandwellness.com/static/hotlines"><h4>Other Hotlines<h4></a></li>
       </ul>
 
   </div>
