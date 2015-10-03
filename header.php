@@ -9,7 +9,7 @@
         <li role="presentation" class="active"><a href="#">Profile</a></li>
         <li role="presentation"><a href="stories.php">My Story</a></li>
         <li role="presentation"><a href="personal_page.php">My Progress</a></li>
-        <li role="presentation"><a href="References.php">References</a></li>
+        <li role="presentation"><a href="References.php">Resources</a></li>
       </ul>
     </div>
 
